@@ -1,0 +1,39 @@
+.tournament-top{
+    width: 100%;
+}
+
+.tournament-top-left{
+    width: 60%;
+}
+
+.tournament-top-right{
+    width: 60%;
+}
+
+.tournament-top-right{
+    width: 60%;
+}
+
+.tournament-bottom{
+    width: 100%;
+}
+
+.tournament-bottom-right{
+    width: 50%;
+}
+
+.tournament-bottom-left{
+    width: 50%;
+}
+
+.standings{
+    width: 500px;
+}
+
+.standings-table{
+    width: 300px;
+}
+
+.teams{
+    width: 300px;
+}
