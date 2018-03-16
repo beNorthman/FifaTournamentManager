@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-family: Helvetica;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background: #29303f;
+}
+
+h1 {
+    font-size: 26px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.content-wrapper {
+    min-width: 900px;
+    max-width: 1600px;
+    margin-top: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+}
+
+.card {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.75rem;
+    border: 1px solid transparent;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 
+    0 6px 6px rgba(0,0,0,0.23);
+    background: #151b27;
+    color: #fff;
+    font-weight: 400;
+}
+
+.card-content {
+    height: 655px;
+}
+
+

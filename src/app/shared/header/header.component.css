@@ -1,0 +1,24 @@
+.header-wrapper {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.header-title{
+    height: 64px;
+    width: 100%;
+    padding-left: 18px;
+    line-height: 64px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background: #151b27;
+}
