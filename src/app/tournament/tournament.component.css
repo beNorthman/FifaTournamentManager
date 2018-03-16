@@ -1,33 +1,36 @@
-.tournament-top{
-    width: 100%;
-}
+.tournament-grid {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .tournament-grid > div {
+    display: flex; 
+    flex-basis: calc(50% - 0px);
+    flex-direction: column;
+  }
+  .tournament-grid > div > div {
+    display: flex;
+    flex-direction: row;
+  }
 
 .tournament-top-left{
-    width: 60%;
+    background: pink; 
 }
 
 .tournament-top-right{
-    width: 60%;
-}
-
-.tournament-top-right{
-    width: 60%;
-}
-
-.tournament-bottom{
-    width: 100%;
+    background: green; 
 }
 
 .tournament-bottom-right{
-    width: 50%;
+    background: blue;
 }
 
 .tournament-bottom-left{
-    width: 50%;
+    background: red;
 }
 
 .standings{
-    width: 500px;
 }
 
 .standings-table{
