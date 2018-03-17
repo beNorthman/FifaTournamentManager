@@ -31,17 +31,6 @@
     /* background: red; */
 }
 
-.standings{
-}
-
-.standings-table{
-    width: 300px;
-}
-
-.teams{
-    width: 300px;
-}
-
 .h1-rowTwo {
     margin-top: 15px;
 }
@@ -52,4 +41,30 @@
     font-family: Helvetica;
     background: none;
     border: none;
+}
+
+.tournament-table{
+    background: #1c222c;
+    padding: 10px;
+}
+
+table.tournament-table td {
+    height: 28.5px;
+    text-align: left;
+}
+
+table.tournament-table th {
+    text-align: left;
+}
+
+.standings-table{
+    width: 95%;
+}
+
+.teams-table{
+    width: 70%;
+}
+
+.roster-table {
+    width: 95%;
 }
