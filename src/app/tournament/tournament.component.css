@@ -45,6 +45,45 @@ table.standings-table tr:nth-child(6)
 {
     background-color: #212732;
 }
+
+table.standings-table th:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+table.standings-table th:nth-child(2) {
+    width: 10%;
+    text-align: center;
+}
+
+table.standings-table th:nth-child(3) {
+    width: 10%;
+    text-align: center;
+}
+
+table.standings-table th:nth-child(4) {
+    width: 10%;
+    text-align: center;
+}
+
+table.standings-table th:nth-child(5) {
+    width: 10%;
+    text-align: center;
+}
+
+table.standings-table th:nth-child(6) {
+    width: 10%;
+    text-align: center;
+}
+table.standings-table tr>td:nth-child(1),
+table.standings-table tr>td:nth-child(2),
+table.standings-table tr>td:nth-child(3),
+table.standings-table tr>td:nth-child(4),
+table.standings-table tr>td:nth-child(5),
+table.standings-table tr>td:nth-child(6) {
+    text-align: center;
+}
+
 /*----------------standings-table-styling END-------------*/
 
 /*------------------team-table-styling Start--------------*/
@@ -92,10 +131,20 @@ table.roster-table tr>td:nth-child(1) {
 
 table.roster-table th:nth-child(2) {
     width: 20%;
+    text-align: center;
+}
+
+table.roster-table tr>td:nth-child(2) {
+    text-align: center;
 }
 
 table.roster-table th:nth-child(3) {
     width: 9%;
+    text-align: center;
+}
+
+table.roster-table tr>td:nth-child(3) {
+    text-align: center;
 }
 
 table.roster-table tr>td:nth-child(3) {
