@@ -1,11 +1,12 @@
 .tournament-grid {
     min-height: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
   .tournament-grid > div {
-    display: flex; 
+    display: flex;
     flex-basis: calc(50% - 0px);
     flex-direction: column;
   }
@@ -15,19 +16,19 @@
   }
 
 .tournament-top-left{
-    background: pink; 
+    /* background: pink; */
 }
 
 .tournament-top-right{
-    background: green; 
+    /* background: green;  */
 }
 
 .tournament-bottom-right{
-    background: blue;
+    /* background: blue; */
 }
 
 .tournament-bottom-left{
-    background: red;
+    /* background: red; */
 }
 
 .standings{
@@ -39,4 +40,16 @@
 
 .teams{
     width: 300px;
+}
+
+.h1-rowTwo {
+    margin-top: 15px;
+}
+
+.table-input {
+    color: #fff;
+    font-size: 18px;
+    font-family: Helvetica;
+    background: none;
+    border: none;
 }
