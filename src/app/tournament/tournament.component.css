@@ -35,10 +35,6 @@
     width: 100%;
 }
 
-.table-input-roster {
-    width: 100%;
-}
-
 .tournament-table{
     background: #1c222c;
     padding: 10px;
@@ -63,42 +59,84 @@ table.tournament-table th {
     width: 70%;
 }
 
+/*----------------roster-table-styling START--------------*/
 .roster-table {
     width: 95%;
+    border-spacing: 0;
+}
+
+.table-input-roster {
+    width: 100%;
+    text-align: center;
+}
+
+table.roster-table tr:nth-child(2),
+table.roster-table tr:nth-child(3),
+table.roster-table tr:nth-child(6),
+table.roster-table tr:nth-child(7),
+table.roster-table tr:nth-child(10),
+table.roster-table tr:nth-child(11)
+{
+    background-color: #212732;
 }
 
 table.roster-table th:nth-child(1) {
-    width: 5%;
+    width: 9%;
+    text-align: center;
 }
+
+table.roster-table tr>td:nth-child(1) {
+    color: #909090;
+    text-align: center;
+}
+
 table.roster-table th:nth-child(2) {
     width: 20%;
 }
 
 table.roster-table th:nth-child(3) {
-    width: 13%;
+    width: 9%;
+}
+
+table.roster-table tr>td:nth-child(3) {
+    font-style: italic;
+    color: #909090;
 }
 
 table.roster-table th:nth-child(4) {
     width: 20%;
+    text-align: center;
+}
+
+table.roster-table tr>td:nth-child(4) {
+    text-align: center;
 }
 
 table.roster-table th:nth-child(5) {
     width: 10%;
+    text-align: center;
 }
 
 table.roster-table th:nth-child(6) {
     width: 2%;
+    text-align: center;
+}
+
+table.roster-table tr>td:nth-child(6) {
+    text-align: center;
 }
 
 table.roster-table th:nth-child(7) {
     width: 10%;
+    text-align: center;
 }
 
 table.roster-table th:nth-child(8) {
     width: 20%;
-    text-align: right;
+    text-align: center;
 }
 
 table.roster-table tr>td:nth-child(8) {
-    text-align: right;
+    text-align: center;
 }
+/*----------------roster-table-styling END----------------*/
