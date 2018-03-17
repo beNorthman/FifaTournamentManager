@@ -32,10 +32,11 @@
 }
 
 .h1-rowTwo {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .table-input {
+    width: 100%;
     color: #fff;
     font-size: 18px;
     font-family: Helvetica;
@@ -49,12 +50,14 @@
 }
 
 table.tournament-table td {
-    height: 28.5px;
+    height: 29px;
     text-align: left;
+    vertical-align: middle;
 }
 
 table.tournament-table th {
     text-align: left;
+    color: #1180f0;
 }
 
 .standings-table{
