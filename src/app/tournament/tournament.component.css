@@ -1,3 +1,11 @@
+.h1-rowTwo {
+    margin-top: 20px;
+}
+
+.h1-right {
+    margin-left: 15px;
+}
+
 .tournament-grid {
     min-height: 100%;
     width: 100%;
@@ -16,7 +24,8 @@
 }
 
 .table-input {
-    width: 100%;
+    width: 90%;
+    text-align: center;
 }
 
 .tournament-table{
@@ -25,7 +34,7 @@
 }
 
 table.tournament-table td {
-    height: 29px;
+    height: 31px;
     text-align: left;
     vertical-align: middle;
 }
@@ -34,9 +43,26 @@ table.tournament-table th {
     text-align: left;
     color: #1180f0;
 }
+
+.top-left {
+    background-color: hotpink;
+}
+
+.top-right {
+    background-color: green;
+}
+
+.bottom-left {
+    background-color: blue;
+}
+
+.bottom-right {
+    background-color: yellow;
+}
 /*----------------standings-table-styling START-----------*/
 .standings-table{
-    width: 95%;
+    width: 98%;
+    padding-right: 15px;
 }
 
 table.standings-table tr:nth-child(2),
@@ -88,7 +114,26 @@ table.standings-table tr>td:nth-child(6) {
 
 /*------------------team-table-styling Start--------------*/
 .teams-table{
-    width: 70%;
+    width: 98%;
+    align-self: flex-end;
+}
+
+table.teams-table th:nth-child(1) {
+    width: 20%;
+    text-align: center;
+}
+
+table.teams-table th:nth-child(2),
+table.teams-table th:nth-child(3) {
+    width: 40%;
+    text-align: center;
+}
+
+table.teams-table tr>td:nth-child(1),
+table.teams-table tr>td:nth-child(2),
+table.teams-table tr>td:nth-child(3),
+table.teams-table tr>td:nth-child(4) {
+    text-align: center;
 }
 
 table.teams-table tr:nth-child(2),
@@ -101,7 +146,11 @@ table.teams-table tr:nth-child(6)
 
 /*----------------roster-table-styling START--------------*/
 .roster-table {
-    width: 95%;
+    width: 98%;
+}
+
+.rost-table-right {
+    align-self: flex-end;
 }
 
 .table-input-roster {

@@ -20,7 +20,6 @@ input {
     border:none;
     background: none;
     border-bottom:1px solid #363f4c;
-
     color: #fff;
     font-size: 18px;
     font-family: Helvetica;
@@ -47,10 +46,6 @@ h1 {
     padding-bottom: 20px;
     font-size: 26px;
     color: #909090;
-}
-
-.h1-rowTwo {
-    margin-top: 20px;
 }
 
 .content-wrapper {

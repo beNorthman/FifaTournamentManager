@@ -58,30 +58,36 @@
             </div>
         </div>
         <div>
-          <h1>Teams</h1>
+          <h1 class="h1-right">Teams</h1>
           <table class="tournament-table teams-table">
             <tr>
               <th>Spieler</th>
-              <th>Team</th>
+              <th>Team Hinrunde</th>
+              <th>Team Rückrunde</th>
             </tr>
             <tr>
               <td><label class="chris">Chris</label></td>
+              <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
               <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
             </tr>
             <tr>
                 <td><label class="timo">Timo</label></td>
                 <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
+                <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
             </tr>
             <tr>
                 <td><label class="julien">Julien</label></td>
+                <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
                 <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
             </tr>
             <tr>
                 <td><label class="flo">Flo</label></td>
                 <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
+                <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
             </tr>
             <tr>
                 <td><label class="bene">Bene</label></td>
+                <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
                 <td><input type="text" value="" (blur)="update(team)" class="table-input"></td>
             </tr>
           </table>
@@ -376,8 +382,8 @@
             </table>
         </div>
         <div>
-          <h1 class="h1-rowTwo">Rückrunde</h1>
-          <table class="tournament-table roster-table">
+          <h1 class="h1-rowTwo h1-right">Rückrunde</h1>
+          <table class="tournament-table roster-table rost-table-right">
             <tr>
               <th>
                 Nr
