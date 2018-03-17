@@ -82,4 +82,25 @@ h1 {
     height: 715px;
 }
 
+/* ------------ Player Labels Start----------*/
+.timo {
+    color: #8cc670;
+}
 
+.chris {
+    color: #ebbf6f;
+}
+
+.flo {
+    color: #d371e3;
+}
+
+.julien {
+    color: #f27212;
+}
+
+.bene {
+    color: #329bbd;
+}
+
+/* ------------ Player Labels END------------*/

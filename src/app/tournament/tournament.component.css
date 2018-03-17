@@ -4,31 +4,15 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-  }
-  .tournament-grid > div {
+}
+.tournament-grid > div {
     display: flex;
     flex-basis: calc(50% - 0px);
     flex-direction: column;
-  }
-  .tournament-grid > div > div {
+}
+.tournament-grid > div > div {
     display: flex;
     flex-direction: row;
-  }
-
-.tournament-top-left{
-    /* background: pink; */
-}
-
-.tournament-top-right{
-    /* background: green;  */
-}
-
-.tournament-bottom-right{
-    /* background: blue; */
-}
-
-.tournament-bottom-left{
-    /* background: red; */
 }
 
 .table-input {
