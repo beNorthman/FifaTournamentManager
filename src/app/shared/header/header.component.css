@@ -22,3 +22,9 @@
     text-align: center;
     background: #151b27;
 }
+
+.logo {
+    vertical-align: top;
+    overflow: hidden;
+    padding-top: 17px;
+}

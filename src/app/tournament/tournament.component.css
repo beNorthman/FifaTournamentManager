@@ -41,24 +41,10 @@ table.tournament-table td {
 
 table.tournament-table th {
     text-align: left;
+    padding-bottom: 6px;
     color: #1180f0;
 }
 
-.top-left {
-    background-color: hotpink;
-}
-
-.top-right {
-    background-color: green;
-}
-
-.bottom-left {
-    background-color: blue;
-}
-
-.bottom-right {
-    background-color: yellow;
-}
 /*----------------standings-table-styling START-----------*/
 .standings-table{
     width: 98%;
