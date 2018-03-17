@@ -66,3 +66,39 @@ table.tournament-table th {
 .roster-table {
     width: 95%;
 }
+
+table.roster-table th:nth-child(1) {
+    width: 5%;
+}
+table.roster-table th:nth-child(2) {
+    width: 20%;
+}
+
+table.roster-table th:nth-child(3) {
+    width: 13%;
+}
+
+table.roster-table th:nth-child(4) {
+    width: 20%;
+}
+
+table.roster-table th:nth-child(5) {
+    width: 10%;
+}
+
+table.roster-table th:nth-child(6) {
+    width: 2%;
+}
+
+table.roster-table th:nth-child(7) {
+    width: 10%;
+}
+
+table.roster-table th:nth-child(8) {
+    width: 20%;
+    text-align: right;
+}
+
+table.roster-table tr>td:nth-child(8) {
+    text-align: right;
+}
