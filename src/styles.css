@@ -28,7 +28,6 @@ input {
 input:focus {
     outline:none;
     caret-color: #1180f0;
-
     border-bottom:1px solid #1180f0;
 }
 
@@ -38,8 +37,9 @@ input:focus ~ label, input:valid ~ label {
     color:#5264AE;
 }
 
-input[type="text"] {
-    /* background: #232a34; */
+table {
+    border: 1px solid #232a36;
+    border-spacing: 0;
 }
 
 h1 {
