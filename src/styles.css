@@ -15,10 +15,42 @@ body {
     background: #29303f;
 }
 
+input {
+    display: block;
+    border:none;
+    background: none;
+    border-bottom:1px solid #232a34;
+
+    color: #fff;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+input:focus {
+    outline:none;
+    caret-color: #1180f0;
+
+    border-bottom:1px solid #1180f0;
+}
+
+input:focus ~ label, input:valid ~ label {
+    top:-20px;
+    font-size:14px;
+    color:#5264AE;
+}
+
+input[type="text"] {
+    /* background: #232a34; */
+}
+
 h1 {
-    font-size: 26px;
     margin: 0;
     padding-bottom: 20px;
+    font-size: 26px;
+    color: #909090;
+}
+
+.h1-rowTwo {
+    margin-top: 20px;
 }
 
 .content-wrapper {

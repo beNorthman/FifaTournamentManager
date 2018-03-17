@@ -31,17 +31,12 @@
     /* background: red; */
 }
 
-.h1-rowTwo {
-    margin-top: 20px;
-}
-
 .table-input {
     width: 100%;
-    color: #fff;
-    font-size: 18px;
-    font-family: Helvetica;
-    background: none;
-    border: none;
+}
+
+.table-input-roster {
+    width: 100%;
 }
 
 .tournament-table{

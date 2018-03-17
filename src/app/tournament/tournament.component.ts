@@ -12,10 +12,11 @@ export class TournamentComponent implements OnInit {
   ngOnInit() {
   }
 
-
-
-
   update(team) {
+
   }
 
+  updateResult(matchResult) {
+
+  }
 }
