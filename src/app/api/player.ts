@@ -1,6 +1,6 @@
 export class Player {
-    goals: number;
-    goalsAgainst: number;
-    goalDiff: number;
-    points: number;
+    goals: number = 0;
+    goalsAgainst: number = 0;
+    goalDiff: number = 0;
+    points: number = 0;
 }
