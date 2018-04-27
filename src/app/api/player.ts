@@ -3,4 +3,5 @@ export class Player {
     goalsAgainst: number = 0;
     goalDiff: number = 0;
     points: number = 0;
+    victories: number =0;
 }
