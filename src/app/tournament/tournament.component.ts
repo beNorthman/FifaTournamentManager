@@ -37,13 +37,11 @@ export class TournamentComponent implements OnInit {
       player2.goalDiff = player2.goalDiff + goalsPlayer2 - goalsPlayer1;
 
       if (goalsPlayer1 > goalsPlayer2) {
-        player1.points = player1.points + 3;
-        return
+        return player1.points = player1.points + 3;
       }
 
       if (goalsPlayer1 < goalsPlayer2) {
-        player2.points = player2.points + 3;
-        return
+        return player2.points = player2.points + 3;
       }
 
       if (goalsPlayer1 == goalsPlayer2) {
